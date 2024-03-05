@@ -1,0 +1,17 @@
+.menu_bar[b-th16srcc6z]{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.menu_buttons[b-th16srcc6z]{
+    display: inline;
+    align-self: center;
+}
+.social_buttons[b-th16srcc6z]{
+    display: inline;
+    align-self: center;
+    justify-self: flex-end;
+
+}

@@ -1,0 +1,31 @@
+@using Blazor.Themes
+@using Blazor.Components.Buttons
+
+<ButtonSmall>
+    <a href=@href match=@match>@ChildContent</a>
+</ButtonSmall>
+
+<style>
+    a{
+        padding: 4px;
+        color: @Theme.Colors.Black; 
+        text-decoration: none;
+    }
+    ButtonSmall{
+        transition: 0.5s;
+    }
+    ButtonSmall:hover{
+        transform: scale(1.4);
+    }
+    
+</style>
+@code{
+    [Parameter]
+    public string? text { get; set; }
+    [Parameter]
+    public string? href { get; set; }
+    [Parameter]
+    public string? match { get; set; }
+    [Parameter] 
+    public RenderFragment? ChildContent { get; set; }
+}

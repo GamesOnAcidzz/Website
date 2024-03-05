@@ -1,0 +1,75 @@
+﻿@page "/games"
+@attribute [StreamRendering]
+@using Blazor.Components.Buttons
+@using Blazor.Themes
+<PageTitle>Games</PageTitle>
+<div class="games">
+    <div class="game">
+        <div class = "game_info">
+            <h1>A Moustache in the House</h1>
+            <img class="game_shot" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1203770/header.jpg?t=1579049186">
+            <iframe width="480" height="315" src="https://www.youtube.com/embed/nk0HGjW-vs4?si=ZnNGlHWfwCa5c-y0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>Available on...
+                <a class="nav-button" href= "https://store.steampowered.com/app/1203770/A_Moustache_in_the_House/" target="_blank">
+                    <i class="fa fa-steam"></i>
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="game">
+        <div class = "game_info">
+            <h1>A Moustache in the House 2</h1>
+            <img class="game_shot" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1877820/header.jpg?t=1645454317">
+            <iframe width="480" height="315" src="https://www.youtube.com/embed/kS4Tsmpc0jw?si=M3cvXTlshtZuzE8P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p >Available on...
+                <a class="nav-button" href= "https://store.steampowered.com/app/1877820/A_Moustache_in_the_House_2/" target="_blank">
+                    <i class="fa fa-steam"></i>
+                </a>
+            </p>            
+        </div>
+    </div>
+</div>
+
+<style>
+    .games{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .game{
+        justify-content: center;
+        border: 2px;
+        border-radius: 10px;
+        border-style: dashed;
+        border-color: @Theme.Colors.Black;
+        margin: 1%;
+        max-width: 550px;
+        display: flex;
+    }
+    .game_info{
+        display: flexbox;
+        justify-content: space-evenly;
+        margin: 3%;
+    }
+    h1{
+        text-align: center;
+    }
+    .store-info{
+        display: flex;
+        padding-top: 30%;
+    }
+    .game_shot{
+        padding-left: 5%;
+        display: block;
+        justify-self: center;
+        max-width: 300px;
+        max-height: 450px;
+    }
+    p{
+        display: inline-block;
+    }
+    iframe{
+        padding-top: 3%;
+    }
+</style>
+@code {
+}

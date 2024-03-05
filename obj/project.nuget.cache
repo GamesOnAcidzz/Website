@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nfQYFXUKvttioxgV+9BXHn9ZNgcTEJI8mshzwahVURcRiv3bDmuRzhbcQ2VP+SuDy9/eYGH+uggnvCSSIQN7ow==",
+  "success": true,
+  "projectFilePath": "/home/acidzz/Documents/AspNet/Blazor/Blazor.csproj",
+  "expectedPackageFiles": [
+    "/home/acidzz/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.1/microsoft.aspnetcore.app.ref.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

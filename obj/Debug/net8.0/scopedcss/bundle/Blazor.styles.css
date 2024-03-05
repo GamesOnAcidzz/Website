@@ -1,0 +1,22 @@
+/* _content/Blazor/Components/Layout/MainLayout.razor.rz.scp.css */
+h1[b-povkajn6p7]{
+    text-align: center;
+ }
+/* _content/Blazor/Components/Layout/NavMenu.razor.rz.scp.css */
+.menu_bar[b-th16srcc6z]{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.menu_buttons[b-th16srcc6z]{
+    display: inline;
+    align-self: center;
+}
+.social_buttons[b-th16srcc6z]{
+    display: inline;
+    align-self: center;
+    justify-self: flex-end;
+
+}

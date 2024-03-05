@@ -1,0 +1,19 @@
+﻿@inherits LayoutComponentBase
+@using Blazor.Themes
+@using Blazor.Components.NavBar
+@using Blazor.Components.Buttons
+
+<div class="page">
+    <h1> Welcome to my Website</h1>
+    <NavMenu/>
+    <main>
+        @Body
+    </main>
+</div>
+
+<style>
+    main{
+        margin-top: 1%;
+        background-color: @Theme.Colors.Primary;
+    }
+</style>
